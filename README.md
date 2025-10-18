@@ -21,16 +21,12 @@ Using **SQL** and **Python**, the analysis focuses on customer behavior, sales p
 | Sellers | Seller information | `seller_id`, `seller_city`, `seller_state` |
 | Geolocation | Location coordinates | `geolocation_zip_code_prefix`, `geolocation_city`, `geolocation_state` |
 
----
-
 ## Tools and Technologies
 - **Languages:** SQL, Python  
 - **Libraries:** Pandas, Matplotlib, Seaborn, PyMySQL  
 - **Database:** MySQL  
 - **Environment:** Google Colab  
 - **Visualization:** Matplotlib & Seaborn  
-
----
 
 ## SQL Analysis Highlights
 Key SQL tasks performed:
@@ -42,10 +38,7 @@ Key SQL tasks performed:
 6. Year-over-year (YoY) sales growth.  
 7. Retention rate of customers within 6 months.
 
----
-
 ## Python Analysis and Visualization
-
 ### 1. Total Sales per Product Category
 ### 2. Orders per Month in 2017
 ### 3. Number of Customers per State
@@ -65,6 +58,3 @@ Using SQL and Python, we derived meaningful patterns in customer behavior, produ
 
 ## Author
 Lopita Mishra
-
-    plt.text(v, i, f'{v:,.0f}', va='center')
-plt.show()
